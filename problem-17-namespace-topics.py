@@ -12,6 +12,8 @@
 # address - public
 # It give address of the person as "<name>, <city>, <state>"
 
+# And also write a program to show namespace of object/instance of above(Person) class.
+
 
 
 class Person:
@@ -29,4 +31,5 @@ class Person:
 p1 = Person('Sadik', 'Bangladesh', 'Rajshahi', 22)
 
 print(p1.address())
+
 print(Person.__dict__)
